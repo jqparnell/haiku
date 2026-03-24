@@ -1,14 +1,21 @@
 /* styles.css */
+html {
+	width: 100%;
+	height: 100%;
+}
 body {
 	margin: 1rem;
-	background-color:black;
+	background: black url("../img/flames.gif");
 	color:whitesmoke;
-	font-size: 5rem;
+	font-size: 4rem;
 	overflow:hidden;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 .grid-container {
 	display:grid;
-	grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
 	margin: 10% 4rem 0 4rem;
 }
 .last {
