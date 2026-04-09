@@ -5,13 +5,17 @@ html {
 }
 body {
 	margin: 1rem;
-	background: black url("../img/flames.gif");
-	color:whitesmoke;
+	background: black url("../img/cherrytree.gif");
+	color:rgb(0, 0, 0);
 	font-size: 4rem;
 	overflow:hidden;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	transition-property: transform;
+	transition-duration: 3s;
+}
+div {
 	transition-property: transform;
 	transition-duration: 3s;
 }
@@ -22,7 +26,7 @@ body {
 }
 .last {
 	padding-bottom: 2rem;
-	border-bottom: 2px solid rgb(220, 200, 180);
+	border-bottom: 2px solid rgb(0, 0, 0);
 }
 * {
 	font-family: Arial;
